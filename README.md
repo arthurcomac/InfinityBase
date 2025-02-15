@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Teste InfinityBase
+# Sobre o projeto
 
-## Getting Started
+Este projeto foi desenvolvido no intuito de apresentar habilidades técnicas de desenvolvimento para oportunidade de trabalho.
 
-First, run the development server:
+A aplicação consiste em um sistema de gestão de tarefas, no atual momento da aplicação temos as principais rotas criadas, ainda pendentes de ajustes.
+
+O projeto foi desenvolvido em Nextjs para uma melhor utilização das rotas, foi utilizado Tailwindcss para estilização, para o css optei pela prática de css modules para importar os arquivos de outro diretório, dessa forma evitando utilizar as classes em linha.
+Foi utilizado a lib Clerk para otimizar os componentes pré-processados pela lib e autenticação via Google.
+
+## Layout mobile
+![Mobile 1](https://github.com/arthurcomac/InfinityBase/blob/main/public/mobile-marketing.jpeg)
+
+![Mobile 2](https://github.com/arthurcomac/InfinityBase/blob/main/public/mobile-login.jpeg)
+
+![Mobile 3](https://github.com/arthurcomac/InfinityBase/blob/main/public/mobile-projetos.jpeg)
+
+![Mobile 4](https://github.com/arthurcomac/InfinityBase/blob/main/public/mobile-projetoss.jpeg)
+
+## Layout web
+![Web 1](https://github.com/arthurcomac/InfinityBase/blob/main/public/tela-marketing.png)
+
+![Web 2](https://github.com/arthurcomac/InfinityBase/blob/main/public/login-clerk.png)
+
+![Web 3](https://github.com/arthurcomac/InfinityBase/blob/main/public/novo-projeto.png)
+
+![Web 4](https://github.com/arthurcomac/InfinityBase/blob/main/public/projeto-criado.png)
+
+![Web 5](https://github.com/arthurcomac/InfinityBase/blob/main/public/configura%C3%A7%C3%A3o-perfil.png)
+
+# Tecnologias utilizadas
+## Front end
+- HTML / CSS / JS / TypeScript
+- NextJs
+- ReactJs
+- Typescript
+- Clerk
+- Tailwindcss
+- Lucide React
+
+# Como executar o projeto
+
+## Front end web
+Pré-requisitos: npm / yarn
 
 ```bash
+# clonar repositório
+git clone https://github.com/arthurcomac/InfinityBase.git
+
+# ou
+
+git clone git@github.com:arthurcomac/InfinityBase.git
+
+# entrar na pasta do projeto front end web
+cd test-infintybase
+
+# instalar dependências
+yarn install
+
+# ou
+npm install
+
+# executar o projeto
+yarn run dev
+
+# ou
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Autor
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Arthur Machado
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Linkedin](https://www.linkedin.com/in/arthur-machado-a72411219/)
